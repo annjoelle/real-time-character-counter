@@ -4,7 +4,7 @@ const clearButton = document.getElementById("clear-btn");
 
 textInput.addEventListener ("input", () => {
     charCount.textContent = `Character Count: ${(textInput.value).length}/50`;
-    if ((textInput.value).length === 50) {
+    if ((textInput.value).length === 100) {
         charCount.style.color = "red"; 
     } else {
         charCount.style.color = "rgb(53, 15, 66)";
