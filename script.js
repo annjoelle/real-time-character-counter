@@ -12,6 +12,6 @@ textInput.addEventListener ("input", () => {
 })
 
 clearButton.addEventListener ("click", () => {
-    charCount.textContent = `Character Count: 0/50`;
+    charCount.textContent = `Character Count: 0/100`;
     charCount.style.color = "rgb(53, 15, 66)";
 })
