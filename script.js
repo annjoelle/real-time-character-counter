@@ -3,7 +3,7 @@ const charCount = document.getElementById("char-count");
 const clearButton = document.getElementById("clear-btn");
 
 textInput.addEventListener ("input", () => {
-    charCount.textContent = `Character Count: ${(textInput.value).length}/50`;
+    charCount.textContent = `Character Count: ${(textInput.value).length}/100`;
     if ((textInput.value).length === 100) {
         charCount.style.color = "red"; 
     } else {
